@@ -35,24 +35,8 @@ http://localhost:3000/api/contacts
 
 ## 📂 Project Structure
 
+<img width="1367" height="812" alt="Screenshot 2025-08-29 212258" src="https://github.com/user-attachments/assets/baab7742-acab-4441-9742-b4d05bd55366" />
 
-pgsql
-
-goit-node-rest-api/
-├─ controllers/          # Route controllers
-│  └─ contactsControllers.js
-├─ helpers/              # Helpers (HttpError, validateBody)
-│  ├─ HttpError.js
-│  └─ validateBody.js
-├─ routes/
-│  └─ contactsRouter.js
-├─ schemas/              # Joi validation schemas
-│  └─ contactsSchemas.js
-├─ services/             # File system operations
-│  └─ contactsServices.js
-├─ contacts.json         # Data storage
-├─ server.js             # App entry point
-└─ README.md
 
 
 ---
