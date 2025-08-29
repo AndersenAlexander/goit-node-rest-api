@@ -33,6 +33,8 @@ http://localhost:3000/api/contacts
 
 ---
 ## 📂 Project Structure
+
+
 pgsql
 Copiază codul
 goit-node-rest-api/
