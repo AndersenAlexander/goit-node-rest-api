@@ -14,7 +14,7 @@ The project demonstrates RESTful routing, data validation with Joi, error handli
 
 ## 🚀 Installation
 
-```bash
+
 # 1. Clone the repository
 git clone https://github.com/<your-username>/goit-node-rest-api.git
 cd goit-node-rest-api
