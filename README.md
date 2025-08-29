@@ -27,7 +27,6 @@ npm run dev
 The API will be available at:
 
 bash
-Copiază codul
 http://localhost:3000/api/contacts
 
 
@@ -39,7 +38,6 @@ http://localhost:3000/api/contacts
 
 pgsql
 
-Copiază codul
 goit-node-rest-api/
 ├─ controllers/          # Route controllers
 │  └─ contactsControllers.js
@@ -78,13 +76,16 @@ Create a new contact.
 
 Body (JSON):
 
+
+
 json
-Copiază codul
 {
   "name": "Mango",
   "email": "mango@mail.com",
   "phone": "322-22-22"
 }
+
+
 201 Created → {id, name, email, phone}
 
 400 Bad Request → {"message": "Validation error"}
@@ -95,10 +96,12 @@ Update an existing contact (partial update allowed).
 Body (JSON):
 
 json
-Copiază codul
+
 {
   "phone": "999-99-99"
 }
+
+
 200 OK → {id, name, email, phone}
 
 400 Bad Request → {"message":"Body must have at least one field"}
@@ -131,7 +134,7 @@ PUT update contact
 
 
 
-##📡 Validation with Joi
+## 📡 Validation with Joi
 All POST and PUT requests are validated with Joi (contactsSchemas.js).
 
 Ensures that:
@@ -144,7 +147,7 @@ PUT requires at least one of { name, email, phone }.
 ---
 
 
-##⚡ Error Handling
+## ⚡ Error Handling
 Errors are managed with a custom HttpError helper.
 
 Centralized error middleware ensures correct status codes and JSON messages.
