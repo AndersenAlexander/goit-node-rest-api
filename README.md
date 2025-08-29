@@ -31,7 +31,7 @@ Copiază codul
 http://localhost:3000/api/contacts
 
 
-
+---
 ## 📂 Project Structure
 pgsql
 Copiază codul
@@ -52,7 +52,7 @@ goit-node-rest-api/
 └─ README.md
 
 
-
+---
 ## 🌐 API Routes
 GET /api/contacts
 Returns all contacts.
@@ -107,7 +107,7 @@ Remove contact by ID.
 
 
 
-
+---
 ## 📸 Screenshots (Postman testing)
 GET all contacts
 
@@ -132,14 +132,14 @@ POST requires { name, email, phone }.
 PUT requires at least one of { name, email, phone }.
 
 
-
+---
 ##⚡ Error Handling
 Errors are managed with a custom HttpError helper.
 
 Centralized error middleware ensures correct status codes and JSON messages.
 
 
-
+---
 ## 📖 Grading Criteria
 All routes implemented and tested in Postman.
 
@@ -150,7 +150,7 @@ Validation and error handling included.
 Screenshots of Postman tests attached.
 
 
-
+---
 ## 📝 License
 MIT © 2025
 Built with ❤️ by Alexander Andersen
