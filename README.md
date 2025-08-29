@@ -29,7 +29,10 @@ The API will be available at:
 bash
 Copiază codul
 http://localhost:3000/api/contacts
-📂 Project Structure
+
+
+
+## 📂 Project Structure
 pgsql
 Copiază codul
 goit-node-rest-api/
@@ -47,7 +50,10 @@ goit-node-rest-api/
 ├─ contacts.json         # Data storage
 ├─ server.js             # App entry point
 └─ README.md
-🌐 API Routes
+
+
+
+## 🌐 API Routes
 GET /api/contacts
 Returns all contacts.
 
@@ -99,7 +105,10 @@ Remove contact by ID.
 
 404 Not Found → {"message":"Not found"}
 
-📸 Screenshots (Postman testing)
+
+
+
+## 📸 Screenshots (Postman testing)
 GET all contacts
 
 GET contact by ID
@@ -110,7 +119,10 @@ DELETE contact
 
 PUT update contact
 
-📡 Validation with Joi
+
+
+
+##📡 Validation with Joi
 All POST and PUT requests are validated with Joi (contactsSchemas.js).
 
 Ensures that:
@@ -119,12 +131,16 @@ POST requires { name, email, phone }.
 
 PUT requires at least one of { name, email, phone }.
 
-⚡ Error Handling
+
+
+##⚡ Error Handling
 Errors are managed with a custom HttpError helper.
 
 Centralized error middleware ensures correct status codes and JSON messages.
 
-📖 Grading Criteria
+
+
+## 📖 Grading Criteria
 All routes implemented and tested in Postman.
 
 Correct status codes (200, 201, 400, 404).
@@ -133,5 +149,8 @@ Validation and error handling included.
 
 Screenshots of Postman tests attached.
 
-📝 License
+
+
+## 📝 License
 MIT © 2025
+Built with ❤️ by Alexander Andersen
